@@ -14,3 +14,4 @@ adafruit blinka + configurer C12 (pour les capacitive)
 * Terminer montage + peaufinement des pistes audio
 * Bricolage objets (en cours)
 * - Audioreactive light - si possible
+* - Schéma descriptif en 3D (installation)
