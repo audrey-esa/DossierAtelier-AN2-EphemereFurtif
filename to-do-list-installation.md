@@ -1,6 +1,6 @@
 #### Fait
 
-* Script Python pour lecture pistes audio avec PyGame (activation touches clavier)
+* Script Python pour lecture pistes audio avec PyGame (activation limité pour l'instant aux touches clavier)
 * Montages audio test (à peaufiner)
 * Script: Jouer 2 pistes sonores en même temps (via 1 touche clavier)
 * Vidéo test - prototype
