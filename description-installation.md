@@ -51,7 +51,7 @@ Dans le raspberry est installé la voix Google sensée émuler la voix d'un assi
 
 #### Etat d'Avancement du Projet
 
-Pour l'instant la base du projet est présente. Via PyGame, le raspberry peut lire les différentes pistes audio et le scénario de l'histoire est prêt. Il manque pour l'instant de finir le montage du reste des pistes, et d'également trouver une solution au script concernant l'ordre de passage de l'interaction des objets. Je suis aussi en plein processus de bricoler les objets pour l'installation. De plus, il reste à configurer le raspberry avec les capteurs sensitifs. Pour l'instant l'activation se fait via les touches du clavier d'ordinateur. En ce qui concerne l'audio-reactive light, je suis pour l'instant dans l'incapacité de m'en procurer.
+La base du projet est présente. Via PyGame, le raspberry peut lire les différentes pistes audio et le scénario de l'histoire est prêt. Pour l'instant je dois trouver une solution au script concernant l'ordre de passage de l'interaction des objets. Je suis aussi en plein processus de bricoler les objets pour l'installation. De plus, il reste à configurer le raspberry avec les capteurs sensitifs. Actuellement, l'activation se fait via les touches du clavier d'ordinateur.
 ***
 
 #### Calendrier de Production
