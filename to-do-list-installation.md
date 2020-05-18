@@ -10,7 +10,7 @@
 
 * Résoudre problème capacitive sensors: connecter CAP1188 au raspberry + import 
 adafruit blinka + configurer C12 (pour les capacitive)
-* Résoudre: Script Python pour ordre passage objets et contraintes
+* Résoudre: Script Python pour ordre de passage des objets et contraintes
 * Bricolage objets (en cours)
 * - Audioreactive light - si possible
 * - Schéma descriptif en 3D (installation)
