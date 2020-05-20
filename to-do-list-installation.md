@@ -14,3 +14,4 @@ adafruit blinka + configurer C12 (pour les capacitive)
 * Bricolage objets (en cours)
 * - Audioreactive light - si possible
 * - Schéma descriptif en 3D (installation)
+* Vidéo Démo
