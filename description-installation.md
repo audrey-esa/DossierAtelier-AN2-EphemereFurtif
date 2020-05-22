@@ -57,6 +57,8 @@ La base du projet est présente. Via PyGame, le raspberry peut lire les différe
 #### Calendrier de Production
 * 18 Mai : Fin montage & peaufinement des pistes audio (x7)
 
-* Fin Mai : Script pour capacitive sensors reliés au raspberry + script ordre de passage des pistes audio
+* 22 Mai : Script ordre de passage des pistes audio
+
+* Fin Mai : Script pour capacitive sensors reliés au raspberry
 
 * Juin : Fin bricolage objets
