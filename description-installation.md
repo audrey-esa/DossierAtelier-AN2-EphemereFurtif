@@ -56,6 +56,8 @@ La base du projet est présente. Via PyGame, le raspberry peut lire les différe
 
 #### Calendrier de Production
 
+* Avril : Recherches, écriture scénar / dialogues, script Pygame pour lecture des pistes audio, prototype
+
 * 1 Mai : Scénario / Dialogues
 
 * 18 Mai : Fin montage & peaufinement des pistes audio (x7)
