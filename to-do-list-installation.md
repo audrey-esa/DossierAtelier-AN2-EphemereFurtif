@@ -13,9 +13,5 @@
 
 #### To Do
 
-* ~~Résoudre problème capacitive sensors: connecter CAP1188 au raspberry + import 
-~~adafruit blinka + configurer C12 (pour les capteurs)~~
-* Bricolage objets (en cours)
+* Définir ordre de passage pour le script des capacitive sensors
 * - Audioreactive light - si possible
-* - Schéma descriptif en 3D (installation)
-* Vidéo Démo
