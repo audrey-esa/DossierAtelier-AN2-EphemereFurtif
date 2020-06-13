@@ -44,7 +44,7 @@ Sur le plan sonore, les pistes musicales de LORN (« Anvil »), 3TEETH (« Se
 
 #### Description
 
-Dans l'espace défini pour cette installation, trois à quatre objets/meubles y seront disposés. Ayant pensé au départ à reproduire l'aspect stérile et épuré de certains meubles « futuristes », j'ai finalement décidé de garder leur aspect plus familier, que l'on verrait dans la vie de tous les jours, afin de maintenir une atmosphère accueillante ; sauf que je placerai sur ces meubles bricolés des facettes réfléchissantes (ex : plexiglas). Chaque objet est relié à un raspberry via des capteurs sensitifs qui transmettrons le message à celui-ci. Le raspberry est lui-même relié via un câble à un haut-parleur qui lira une piste audio différente en fonction de l'interaction du public avec un objet spécifique. Autour du haut-parleur sera fixé une lumière LED qui s'illumine en fonction du son qu'émet ce haut-parleur (audo-reactive). 
+Dans l'espace défini pour cette installation, trois à quatre objets/meubles y seront disposés. Ayant pensé au départ à reproduire l'aspect stérile et épuré de certains meubles « futuristes », j'ai finalement décidé de garder leur aspect plus familier, que l'on verrait dans la vie de tous les jours, afin de maintenir une atmosphère accueillante ; sauf que je placerai sur ces meubles bricolés des facettes réfléchissantes (ex : plexiglas, référence: Colin Roberts). Chaque objet est relié à un raspberry via des capteurs sensitifs qui transmettrons le message à celui-ci. Le raspberry est lui-même relié via un câble à un haut-parleur qui lira une piste audio différente en fonction de l'interaction du public avec un objet spécifique. Autour du haut-parleur sera fixé une lumière LED qui s'illumine en fonction du son qu'émet ce haut-parleur (audo-reactive). 
 
 Dans le raspberry est installé la voix Google sensée émuler la voix d'un assistant personnel. Il contiendra également au moins six pistes sonores, dont j'aurais fait le montage, qui s'activeront dans un certain ordre, grâce au script Python, en fonction de l'activation d'un capacitive sensor en particulier.
 ***
@@ -52,6 +52,8 @@ Dans le raspberry est installé la voix Google sensée émuler la voix d'un assi
 #### Etat d'Avancement du Projet
 
 La base du projet est présente. Via PyGame, le raspberry peut lire les différentes pistes audio et le scénario de l'histoire est prêt. Pour l'instant je dois trouver une solution au script concernant l'ordre de passage de l'interaction des objets. Je suis aussi en plein processus de bricoler les objets pour l'installation. De plus, il reste à configurer le raspberry avec les capteurs sensitifs. Actuellement, l'activation se fait via les touches du clavier d'ordinateur.
+
+* **Update Juin**: Les objets sont prêts, mais par faute de moyens, certains d'entre eux j'ai bricolé en taille miniature, au lieu de grandeur nature. Le script d'ordre de passage est toujours limité aux touches, mais le script des capacitive sensors fonctionne et l'activation des pistes audio est prête à être exécutée via capacitive, sauf qu'il y a souci niveau ordre de passage. J'ai été malheureusement dans l'impossibilité de configurer le audioreactive light.
 ***
 
 #### Calendrier de Production
@@ -66,4 +68,6 @@ La base du projet est présente. Via PyGame, le raspberry peut lire les différe
 
 * Fin Mai : Script pour capacitive sensors reliés au raspberry
 
-* Juin : Fin bricolage objets
+* Juin : Fin bricolage objets (facettes de verre en mosaïque) + schéma 3D
+
+* ~~Juin: Audioreactive light
