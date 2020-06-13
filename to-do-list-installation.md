@@ -6,7 +6,7 @@
 * Script capacitive sensors (CAP1188 + Raspberry + config i2C) => **Ordre à coder**
 * Bricolage des objets (mosaïques de verre transparents)
 * Schéma de l'installation en 3D
-* vidéo Démo
+* Vidéo Démo + making of
 * Scénario complet
 * Pistes audio (montage + peaufinement) x 7
 * Vidéo test - prototype
