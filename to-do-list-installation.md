@@ -15,3 +15,4 @@
 
 * Définir ordre de passage pour le script des capacitive sensors
 * - Audioreactive light - si possible
+* - Faire lien entre haut-parleur & raspberry via bluetooth (sans câble)
