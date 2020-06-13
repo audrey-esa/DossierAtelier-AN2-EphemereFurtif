@@ -1,0 +1,50 @@
+import board
+import busio
+
+import subprocess
+import random
+import time
+import pygame
+pygame.mixer.init()
+
+    
+from adafruit_cap1188.i2c import CAP1188_I2C
+i2c = busio.I2C(board.SCL, board.SDA)
+cap = CAP1188_I2C(i2c)
+
+
+thee = pygame.mixer.Sound("/home/pi/Music/conv1.wav")
+free = pygame.mixer.Sound("/home/pi/Music/conv2.wav")
+heyy = pygame.mixer.Sound("/home/pi/Music/conv3.wav")
+leyy = pygame.mixer.Sound("/home/pi/Music/conv4.wav")
+chee = pygame.mixer.Sound("/home/pi/Music/conv5.wav")
+zhee = pygame.mixer.Sound("/home/pi/Music/conv6.wav")
+dhee = pygame.mixer.Sound("/home/pi/Music/conv7.wav")
+
+while True:
+    #cap = input("Quoi?")
+    
+    
+    if cap[1].value:
+        #print("Pin 1 touched!")
+        thee.play()
+        
+    if cap[2].value:
+        free.play()
+        
+    if cap[3].value:
+        heyy.play()
+        
+    if cap[4].value:
+        leyy.play()
+        
+    if cap[5].value:
+        chee.play()
+        
+    if cap[6].value:
+        zhee.play()
+        
+    if cap[7].value:
+        dhee.play()
+    
+    #time.sleep(1)

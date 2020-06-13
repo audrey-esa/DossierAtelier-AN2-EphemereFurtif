@@ -1,0 +1,79 @@
+import subprocess
+import random
+import time
+
+import pygame
+pygame.mixer.init()
+##pygame.mixer.music.load("/home/pi/Music/the-detox-2.wav")
+##pygame.mixer.music.play()
+
+#while pygame.mixer.music.get_busy() == True:
+    #continue
+    
+###while True:
+    ###thee = pygame.mixer.Sound("/home/pi/Music/the-detox-2.wav")
+    ###clavier = input("Quoi?: ")
+    ###if clavier == "r":
+        ###thee.play()          
+
+def parle(phrase):
+    subprocess.run(["sh", "parle.sh", phrase])
+    print("J'ai dit: " + phrase)
+
+while(True):
+    clavier = input("Quoi?: ")
+    if clavier == "a":
+        parle("Je suis là pour vous.")
+        
+    elif clavier == "z":
+        parle("Bonjour Bonjour Madame. Je m'appelle Sylv. Le nom est bon?")
+
+        
+    thee = pygame.mixer.Sound("/home/pi/Music/conv1.wav")
+    free = pygame.mixer.Sound("/home/pi/Music/conv2.wav")
+    heyy = pygame.mixer.Sound("/home/pi/Music/conv3.wav")
+    leyy = pygame.mixer.Sound("/home/pi/Music/conv4.wav")
+    chee = pygame.mixer.Sound("/home/pi/Music/conv5.wav")
+    zhee = pygame.mixer.Sound("/home/pi/Music/conv6.wav")
+    dhee = pygame.mixer.Sound("/home/pi/Music/conv7.wav")
+    
+    
+    
+    if clavier == "r":
+        thee.play()
+        touche = "r"
+        
+    
+    if clavier == "s" and touche == "r":
+        free.play()
+        touche = "s"
+        
+    
+    if clavier == "m" and touche == "s":
+        heyy.play()
+        touche = "m"
+        
+    
+    if clavier == "k" and touche == "m":
+        leyy.play()
+        touche = "k"
+        
+    
+    if clavier == "d" and touche == "k":
+        chee.play()
+        touche = "d"
+        
+    
+    if clavier == "h" and touche == "d":
+        zhee.play()
+        touche = "h"
+        
+    
+    if clavier == "b" and touche == "h":
+        dhee.play()
+        touche = "b"
+   
+        
+    #rand = random.randint(0, 99)
+    #parle(str(rand))
+    time.sleep(1)
