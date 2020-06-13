@@ -70,4 +70,4 @@ La base du projet est présente. Via PyGame, le raspberry peut lire les différe
 
 * Juin : Fin bricolage objets (facettes de verre en mosaïque) + schéma 3D
 
-* ~~Juin: Audioreactive light
+* ~~Juin: Audioreactive light~~
